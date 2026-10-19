@@ -1,0 +1,3 @@
+# Plugin: imageinfo | Profile: none (profile not yet selected) | Volatility 2.6.1
+# Command: python2 vol.py -f /home/kali/SBTDF204_CaseStudy3/02_working_copy/memdumpWin7.mem imageinfo
+# Run (UTC): 2026-10-18 11:34:27

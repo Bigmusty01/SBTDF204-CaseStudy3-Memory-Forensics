@@ -1,0 +1,73 @@
+# Plugin/args: kdbgscan | Profile: Win7SP1x86_23418 | Volatility 2.6.1
+# Command: python2 vol.py -f /home/kali/SBTDF204_CaseStudy3/02_working_copy/memdumpWin7.mem --profile=Win7SP1x86_23418 kdbgscan
+# Run (UTC): 2026-10-18 11:45:04
+*** Failed to import volatility.plugins.malware.apihooks (NameError: name 'distorm3' is not defined)
+*** Failed to import volatility.plugins.malware.threads (NameError: name 'distorm3' is not defined)
+*** Failed to import volatility.plugins.mac.apihooks_kernel (ImportError: No module named distorm3)
+*** Failed to import volatility.plugins.mac.check_syscall_shadow (ImportError: No module named distorm3)
+*** Failed to import volatility.plugins.ssdt (NameError: name 'distorm3' is not defined)
+*** Failed to import volatility.plugins.mac.apihooks (ImportError: No module named distorm3)
+**************************************************
+Instantiating KDBG using: Kernel AS Win7SP1x86_23418 (6.1.7601 32bit)
+Offset (V)                    : 0x82972c68
+Offset (P)                    : 0x2972c68
+KDBG owner tag check          : True
+Profile suggestion (KDBGHeader): Win7SP1x86_23418
+Version64                     : 0x82972c40 (Major: 15, Minor: 7601)
+Service Pack (CmNtCSDVersion) : 1
+Build string (NtBuildLab)     : 7601.18939.x86fre.win7sp1_gdr.15
+PsActiveProcessHead           : 0x8298b4f0 (54 processes)
+PsLoadedModuleList            : 0x82992e30 (140 modules)
+KernelBase                    : 0x82847000 (Matches MZ: True)
+Major (OptionalHeader)        : 6
+Minor (OptionalHeader)        : 1
+KPCR                          : 0x82973d00 (CPU 0)
+
+**************************************************
+Instantiating KDBG using: Kernel AS Win7SP1x86_23418 (6.1.7601 32bit)
+Offset (V)                    : 0x82972c68
+Offset (P)                    : 0x2972c68
+KDBG owner tag check          : True
+Profile suggestion (KDBGHeader): Win7SP1x86_24000
+Version64                     : 0x82972c40 (Major: 15, Minor: 7601)
+Service Pack (CmNtCSDVersion) : 1
+Build string (NtBuildLab)     : 7601.18939.x86fre.win7sp1_gdr.15
+PsActiveProcessHead           : 0x8298b4f0 (54 processes)
+PsLoadedModuleList            : 0x82992e30 (140 modules)
+KernelBase                    : 0x82847000 (Matches MZ: True)
+Major (OptionalHeader)        : 6
+Minor (OptionalHeader)        : 1
+KPCR                          : 0x82973d00 (CPU 0)
+
+**************************************************
+Instantiating KDBG using: Kernel AS Win7SP1x86_23418 (6.1.7601 32bit)
+Offset (V)                    : 0x82972c68
+Offset (P)                    : 0x2972c68
+KDBG owner tag check          : True
+Profile suggestion (KDBGHeader): Win7SP1x86
+Version64                     : 0x82972c40 (Major: 15, Minor: 7601)
+Service Pack (CmNtCSDVersion) : 1
+Build string (NtBuildLab)     : 7601.18939.x86fre.win7sp1_gdr.15
+PsActiveProcessHead           : 0x8298b4f0 (54 processes)
+PsLoadedModuleList            : 0x82992e30 (140 modules)
+KernelBase                    : 0x82847000 (Matches MZ: True)
+Major (OptionalHeader)        : 6
+Minor (OptionalHeader)        : 1
+KPCR                          : 0x82973d00 (CPU 0)
+
+**************************************************
+Instantiating KDBG using: Kernel AS Win7SP1x86_23418 (6.1.7601 32bit)
+Offset (V)                    : 0x82972c68
+Offset (P)                    : 0x2972c68
+KDBG owner tag check          : True
+Profile suggestion (KDBGHeader): Win7SP0x86
+Version64                     : 0x82972c40 (Major: 15, Minor: 7601)
+Service Pack (CmNtCSDVersion) : 1
+Build string (NtBuildLab)     : 7601.18939.x86fre.win7sp1_gdr.15
+PsActiveProcessHead           : 0x8298b4f0 (54 processes)
+PsLoadedModuleList            : 0x82992e30 (140 modules)
+KernelBase                    : 0x82847000 (Matches MZ: True)
+Major (OptionalHeader)        : 6
+Minor (OptionalHeader)        : 1
+KPCR                          : 0x82973d00 (CPU 0)
+

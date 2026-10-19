@@ -1,0 +1,9 @@
+2026-10-18 11:26:16 UTC - Created Case Study 3 folder structure
+2026-10-18 11:29:40 UTC - Copied memdumpWin7.mem from ~/Downloads to 01_original_evidence (read-only), hashed, made working copy
+2026-10-18 11:37:42 UTC - Ran imageinfo on working copy; saved 03_volatility_output/01_imageinfo.txt
+2026-10-18 11:38:34 UTC - CORRECTION: previous imageinfo run was killed by the OS before completing (output file has header only); will retry after freeing memory
+2026-10-18 11:44:48 UTC - imageinfo re-run completed after earlier OOM kill; output 03_volatility_output/01b_imageinfo.txt; suggested Win7SP1x86_23418 / Win7SP0x86 / Win7SP1x86_24000 / Win7SP1x86; image time 2019-01-06 15:09:06 UTC
+2026-10-18 11:50:50 UTC - Installed pycryptodome (py2) to enable shellbags; ran kdbgscan, pslist, psscan, netscan, hivelist (profile Win7SP1x86_23418, working choice pending validation)
+2026-10-18 11:55:21 UTC - Validated profile Win7SP1x86_23418 (kdbgscan build 7601.18939, pslist/netscan/hivelist coherent); ran getsids, timezone, ProfileList, SAM names, cmdscan, consoles
+2026-10-18 12:00:29 UTC - Reviewed consoles output (copy secret_file.docx F: / 1 file(s) copied); ran USBSTOR, MountedDevices, DeviceClasses, MountPoints2 (IEUser hive 0x8b5d39b0), shellbags
+2026-10-18 12:28:08 UTC - Reviewed MountedDevices (F: -> USBSTOR General UDisk), hivedump SYSTEM/NTUSER (USB and MountPoints2 times), SAM names; ran userassist, filescan, strings for secret_file

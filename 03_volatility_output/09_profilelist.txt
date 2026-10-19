@@ -1,0 +1,3 @@
+# Plugin/args: printkey -K Microsoft\Windows NT\CurrentVersion\ProfileList | Profile: Win7SP1x86_23418 | Volatility 2.6.1
+# Command: python2 vol.py -f /home/kali/SBTDF204_CaseStudy3/02_working_copy/memdumpWin7.mem --profile=Win7SP1x86_23418 printkey -K Microsoft\Windows NT\CurrentVersion\ProfileList
+# Run (UTC): 2026-10-18 11:53:23
